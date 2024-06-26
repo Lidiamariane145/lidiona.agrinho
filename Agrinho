@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Sistemas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #007bff;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desenvolvimento de Sistemas</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>Somos uma equipe especializada em desenvolvimento de sistemas personalizados para atender às necessidades específicas de nossos clientes.</p>
+    </section>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Desenvolvimento de aplicativos web</li>
+            <li>Integração de sistemas</li>
+            <li>Consultoria em TI</li>
+            <li>Manutenção de sistemas existentes</li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Estamos localizados em Escola Estadual Santo Agostinho, entre em contato conosco através do instagram ou pelo email daescola.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Desenvolvimento de Sistemas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
